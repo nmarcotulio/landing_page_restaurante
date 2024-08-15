@@ -31,3 +31,25 @@ header {
     color: #1d1d1d;
     border-bottom: 3px solid #ffe100;
 }
+
+.mobile-btn {
+    display: none;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav-list,
+    #navbar .btn-default {
+        display: none;
+    }
+    .mobile-btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
